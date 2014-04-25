@@ -10,7 +10,7 @@ cd ~
 git clone https://github.com/JAAulde/dotfiles 
 ~~~~~~~~~~~
 
-**Create synlink to file in dotfiles**
+**Create synlinks to files in dotfiles**
 ~~~~~~~~~~~~
 cd ~
 ln -s ~/dotfiles/<file> ~/<file>
@@ -22,7 +22,7 @@ Push modifications made at command line
 
 ~~~~~~~~~~~~
 cd ~/dotfiles
-git commit -m '<reason>'
+git commit -m "<reason>"
 git push origin master
 ~~~~~~~~~~~~
 
@@ -31,7 +31,7 @@ Get modifications from github
 -----------------------------
 ~~~~~~~~~~~~
 cd ~/dotfiles
-git pull
+git pull origin master
 ~~~~~~~~~~~~
 
 
@@ -43,7 +43,7 @@ Vim specifics
 **Add submodule for pathogen plugin**
 ~~~~~~~~~~~~
 cd ~/dotfiles
-git submodule add <plugin-url> vim/bundle/<plugin-name>
+git submodule add <plugin-url> .vim/bundle/<plugin-name>
 git add .
 git commit -m "Install <plugin-name> bundle as a submodule."
 git push origin master
