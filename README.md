@@ -2,7 +2,8 @@ Repository of unix dotfiles.
 
 Check out repository
 ~~~~~~~~~~~
-git clone git://github.com/
+cd ~
+git clone https://github.com/JAAulde/dotfiles 
 ~~~~~~~~~~~
 
 Create synlink to file in dotfiles
