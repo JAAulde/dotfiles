@@ -4,3 +4,6 @@
 [submodule ".vim/bundle/syntastic"]
 	path = .vim/bundle/syntastic
 	url = https://github.com/scrooloose/syntastic.git
+[submodule ".vim/bundle/funcoo"]
+	path = .vim/bundle/funcoo
+	url = https://github.com/rizzatti/funcoo.vim.git
