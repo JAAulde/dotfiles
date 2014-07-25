@@ -18,9 +18,14 @@ git submodule update
 ~~~~~~~~~~~
 
 **Create synlinks to files in dotfiles**
+
+_ln -s ~/dotfiles/{$file} ~/{$file}_
 ~~~~~~~~~~~~
 cd ~
-ln -s ~/dotfiles/<file> ~/<file>
+ln -s ~/dotfiles/.bash_profile ~/.bash_profile
+ln -s ~/dotfiles/.tmux.conf ~/.tmux.conf
+ln -s ~/dotfiles/.vim ~/.vim
+ln -s ~/dotfiles/.vimrc ~/.vimrc
 ~~~~~~~~~~~~
 
 
