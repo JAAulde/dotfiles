@@ -7,6 +7,11 @@ Install
 **Check out repository**
 ~~~~~~~~~~~
 cd ~
+
+git clone --recursive https://github.com/JAAulde/dotfiles 
+
+--(OR)--
+
 git clone https://github.com/JAAulde/dotfiles 
 git submodule init 
 git submodule update
