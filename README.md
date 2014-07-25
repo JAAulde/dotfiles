@@ -8,6 +8,8 @@ Install
 ~~~~~~~~~~~
 cd ~
 git clone https://github.com/JAAulde/dotfiles 
+git submodule init 
+git submodule update
 ~~~~~~~~~~~
 
 **Create synlinks to files in dotfiles**
