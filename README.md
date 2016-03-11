@@ -71,3 +71,9 @@ git pull origin master
 ~~~~~~~~~~~~
 git submodule foreach git pull origin master
 ~~~~~~~~~~~~
+
+
+Things to check out
+-------------------
+[EditorConfig](http://editorconfig.org)
+[rcm](https://github.com/thoughtbot/rcm)
